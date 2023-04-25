@@ -13,7 +13,6 @@ import static org.junit.Assert.assertEquals;
 public class LionTests {
     private final String sex;
     private final boolean hasMane;
-
     public LionTests(String sex, boolean hasMane) {
         this.sex = sex;
         this.hasMane = hasMane;

@@ -14,6 +14,7 @@ public class FelineKittensTest {
         this.inputKittensCount = inputKittensCount;
         this.expectedKittensCount = expectedKittensCount;
     }
+
     @Parameterized.Parameters(name = "{index}: kittensCount={0}")
     public static Collection<Object[]> data() {
         return Arrays.asList (new Object[][]{
